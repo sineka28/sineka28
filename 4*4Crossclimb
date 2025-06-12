@@ -1,0 +1,45 @@
+print("Welcome to Crossclimb!")
+print("Guess 4 words. Each word changes just ONE letter from the one before.\n")
+
+word1 = "LINE"
+word2 = "FINE"
+word3 = "NINE"
+word4 = "WINE"
+
+print("Clues:")
+print("1. A straight mark connecting two points.")
+print("2. Another word for okay or good.")
+print("3. A number after eight.")
+print("4. A drink made from grapes.\n")
+
+guess1 = input("1. Your guess: ").upper()
+guess2 = input("2. Your guess: ").upper()
+guess3 = input("3. Your guess: ").upper()
+guess4 = input("4. Your guess: ").upper()
+
+print("\nChecking your answers:")
+if guess1 == word1:
+    print("1. Correct!")
+else:
+    print("1. Wrong! Correct answer:", word1)
+
+if guess2 == word2:
+    print("2. Correct!")
+else:
+    print("2. Wrong! Correct answer:", word2)
+
+if guess3 == word3:
+    print("3. Correct!")
+else:
+    print("3. Wrong! Correct answer:", word3)
+
+if guess4 == word4:
+    print("4. Correct!")
+else:
+    print("4. Wrong! Correct answer:", word4)
+
+print("\nFinal Word Ladder:")
+print(word1)
+print(word2)
+print(word3)
+print(word4)
